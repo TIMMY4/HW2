@@ -1,5 +1,7 @@
 package assignment2;
 
+import java.util.*;
+
 /**
  * Instructions for this assignment.  Download this template from GitHub, fill in
  * the author comment below with your name and implement the requirements below.
@@ -33,8 +35,21 @@ package assignment2;
 public class Assignment2 {
 
     public static void main(String[] args) {
+        Animal dog= new Animal("Woof");
+        Animal cat=new Animal("Meow");
+        Animal surfer=new Animal("Narly");
+        Animal mouse=new Animal("Squeek");
         
-        
+         List<Animal>animals=new ArrayList();
+         
+       animals.add(cat);
+       animals.add(dog);
+       animals.add(surfer);
+       animals.add(mouse);
+       
+        for(int i=0; i<animals.size();i++){
+            animals.get(i).speak();
+        }
     }
     
 }
