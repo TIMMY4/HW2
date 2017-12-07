@@ -14,11 +14,10 @@ package assignment2;
  * @author tim
  */
 public class Animal {
-
+    private final String speakParameter;
     public Animal(String speakParameter) {
         this.speakParameter = speakParameter;
     }
-    private final String speakParameter;
     public void speak(){
         System.out.println(this.speakParameter);
     }
