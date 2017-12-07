@@ -10,7 +10,7 @@ import java.util.*;
  * If a requirement is not implemented, you will receive 0 points.
  * Requirements are worth 50 points each.
  * 
- * @author myname
+ * @author Ryan Wanner
  * 
  * Requirements for main method
  * 
